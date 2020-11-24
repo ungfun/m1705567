@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>gameover</class>
+ <widget class="QDialog" name="gameover">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>50</y>
+     <width>291</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Helvetica</family>
+     <pointsize>40</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Игра окончена!</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="NewGameButton">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>140</y>
+     <width>141</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Helvetica</family>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Новая игра</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ExitButton">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>190</y>
+     <width>141</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Helvetica</family>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Выйти</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
