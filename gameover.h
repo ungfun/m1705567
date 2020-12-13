@@ -15,6 +15,11 @@ public:
     explicit gameover(QWidget *parent = nullptr);
     ~gameover();
 
+private slots:
+    void on_NewGameButton_clicked();
+
+    void on_ExitButton_clicked();
+
 private:
     Ui::gameover *ui;
 };

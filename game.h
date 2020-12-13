@@ -4,7 +4,7 @@
 #include <QGraphicsView>
 #include <QGraphicsScene>
 #include <QWidget>
-#include "Igrok.h"
+#include "igrok.h"
 #include <QTimer>
 #include "score.h"
 #include "lives.h"

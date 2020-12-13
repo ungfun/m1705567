@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>bc.png</file>
+        <file>igrok.png</file>
+        <file>pulya.png</file>
+        <file>vrag.png</file>
+    </qresource>
+</RCC>

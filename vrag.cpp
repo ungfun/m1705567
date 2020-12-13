@@ -5,11 +5,11 @@
 #include "game.h"
 #include "lives.h"
 #include "gameover.h"
-#include "Igrok.h"
+#include "igrok.h"
 #include "pulya.h"
 
 extern Game * game;
-Gameover * gameisover;
+gameover * gameisover;
 Igrok * igrok;
 int n=0;
 
@@ -41,7 +41,7 @@ void Vrag::move()
                     game->timer->disconnect();
                     timer->disconnect();
                     game->close();
-                    gameisover = new Gameover();
+                    gameisover = new gameover();
                     gameisover->show();
                 }
     }

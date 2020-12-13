@@ -44,6 +44,11 @@ if(ANDROID)
     start.cpp
     start.h
     start.ui
+    score.h
+    score.cpp
+    vrag.h
+    vrag.cpp
+    res.qrc
   )
 else()
   add_executable(YaDolzhnik
@@ -62,6 +67,11 @@ else()
     start.cpp
     start.h
     start.ui
+    score.h
+    score.cpp
+    vrag.h
+    vrag.cpp
+    res.qrc
   )
 endif()
 
